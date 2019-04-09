@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Home </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container1 {
+  position: relative;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: 100PX;
+
+
+
+}
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#f44242;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+.container1:hover .overlay2 {
+  opacity: 1;
+}
+.text1 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+	<link rel="stylesheet" type="text/css" href="style22.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+</head>
+<body>
+
+<div class=" header">
+	
+<img class="img1" src="logo.jpg" width="100px" height="100px">
+<div class="a">
+			<a href="home2.html">
+			<span>HOME</span>
+		</a>
+		</div>
+		<div class="a">
+			<a href="about1.html">
+			<span>ABOUT</span>
+			</a>
+		</div>
+		<div class="a">
+			<a href="contact3.html">
+			<span>CONTACT</span>
+		</a>
+		
+	</div>
+
+
+
+
+
+
+</div>
+<div class="container">
+	
+
+<h1 class="title">Henaran</h1>
+<div class="rrw">
+<p class="know">Want to learn at the "Henaran" training center and at the same time get a lot of knowledge in different subjects then this offer is for you. Dear Parents, "HENAA" Training Center announces a reception for school children. Our qualified and trained specialists will help your children do homework assignments, prepare for test work, examinations in Grades 4 and 9, eliminate incomplete issues with the subject, and fill out the gaps. Individual exercises are also held in any subject.
+The following subjects are taught: Mathematics (Algebra and Geometry) • Physics, Chemistry, Biology
+• History, geography
+• Armenian, Russian, English, French • Chess:
+You can choose days and hours suitable for your child's schedule.</p>
+
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="ol1.jpg" style="height: 600px; width: 800px;">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="ol2.jpg" style="height: 600px; width: 800px;">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="ol3.jpg" style="height: 600px; width: 800px;">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<div class="shunik">
+<div class="container1">
+  <img src="team1.jpg" alt="Avatar" class="image" height="550px" width="800px">
+  <div class="overlay1">
+    <div class="text1">First Group</div>
+  </div>
+</div>
+<div class="container1">
+  <img src="team2.jpg" alt="Avatar" class="image" height="550px" width="800px">
+  <div class="overlay2">
+    <div class="text1">Second Group</div>
+  </div>
+</div>
+
+</div>
+
+
+</div>
+<div class="footer">
+	
+
+<div class="nig">
+<h3>Website By:Aram Tatoyan</h3>
+<h3>© 2018 MYDOMAIN.COM ALL RIGHTS RESERVED</h3>
+
+<pre>
+	<a class="pr" href="private11.html">Private Policy</a>
+</pre>
+<pre>
+
+</pre>
+<pre>
+
+</pre>
+<pre>
+</pre>
+       </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
